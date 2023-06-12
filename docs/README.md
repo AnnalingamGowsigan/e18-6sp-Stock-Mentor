@@ -7,16 +7,9 @@ repository-name: eYY-XXX-project-template
 title:
 ---
 
-[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
-
 # Stock Mentor
 
 ---
-
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-
-![Sample Image](./images/sample.png)
-
 
 ## Team
 -  E/18/013, Abhilash R., [email](mailto:e18013@eng.pdn.ac.lk)
@@ -28,19 +21,57 @@ This is a sample image, to show how to add images to your page. To learn more op
 2. [Problem](#problem)
 3. [Solution](#solution)
 4. [Impact](#impact)
-5. [Links](#links)
+5. [User view](#user_view)
+6. [Links](#links)
 
 ---
 
 ## Background
 
- description of the real world problem and solution, impact
+![Background](./images/background.png)
+
+![Stock chart](./images/stock_chart.png)
+
+According to the above image in the stock market when a person;
+                    - buy stocks for a lower price and sell it to a higher price = Long ,
+                    - sell stocks for a higher price first and then buy stocks for a lower price = Shorts,
+                    - not buying or selling stocks = hold
  
 ## Problem
 
+In stock market investors buy, sell or, hold data on daily basis.
+        - Investors engage in daily buying, selling, or holding of stock market data.
+        - Predicting market movements accurately is challenging, leading to potential losses and risk.
+        - Investors should conduct thorough research and seek professional advice before making investment decisions.
+
 ## Solution
 
+Developing a web application specifically designed to provide investors with recommendations on stock trading decisions for different companies. The application will offer daily suggestions on whether to buy, sell, or hold stocks, assisting investors in making informed choices. By leveraging this application, investors can gain valuable insights to navigate the dynamic stock market effectively.
+
+Following are the facts that were taken into consideration when designing the solution
+
+1. Classification
+
+   Three key categories
+    - Long
+    - Hold
+    - Short
+  
+2. Imbalanced data
+
+   An imbalanced data set refers to a dataset where the distribution of classes or labels is heavily skewed.
+
 ## Impact
+
+There are hundreds of models available, but unfortunately, more than 70% of them make incorrect predictions for the stock market. This is primarily because these models are solely based on software knowledge without considering the crucial aspect of business knowledge. However, our application will stand out by incorporating the business ideas from the project owner, resulting in higher accuracy and a greater impact.
+
+1. Investor Confidence: Accurate predictions can enhance investor confidence in the stock market. If investors have access to reliable predictions of hold, buy, or sell periods, they may make more informed decisions, leading to increased participation and potentially higher trading volumes.
+
+2. Increased accuracy in trading decisions refers to the potential for algorithmic trading systems to make more precise and data-driven choices when executing trades
+
+## User view
+
+![User_view](./images/user_view.png)
 
 ## Links
 
