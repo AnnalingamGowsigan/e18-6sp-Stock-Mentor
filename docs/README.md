@@ -9,7 +9,7 @@ title:
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Stock Mentor
 
 ---
 
@@ -19,24 +19,28 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/18/013, Abhilash R., [email](mailto:e18013@eng.pdn.ac.lk)
+-  E/18/058, De Alwis K. K. M., [email](mailto:e18058@eng.pdn.ac.lk)
+-  E/18/115, Gowsigan A., [email](mailto:e18115@eng.pdn.ac.lk)
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Other Sub Topics](#other-sub-topics)
-3. [Links](#links)
+1. [Background](#backgroung)
+2. [Problem](#problem)
+3. [Solution](#solution)
+4. [Impact](#impact)
+5. [Links](#links)
 
 ---
 
-## Introduction
+## Background
 
  description of the real world problem and solution, impact
+ 
+## Problem
 
-## Other Sub Topics
+## Solution
 
-.....
+## Impact
 
 ## Links
 
