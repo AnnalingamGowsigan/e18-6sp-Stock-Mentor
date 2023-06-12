@@ -72,8 +72,8 @@ There are hundreds of models available, but unfortunately, more than 70% of them
 
 ## User view
 
-![Alt Text](./images/search.gif)
-<img src="./images/user_view.png"  width="50%" height="50%">
+![userview](./images/search.gif)
+
 
 ## Timeline
 
