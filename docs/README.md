@@ -28,9 +28,9 @@ title:
 
 ## Background
 
-![Background] <img src="./images/background.png"  width="50%" height="50%">
+<img src="./images/background.png"  width="50%" height="50%">
 
-![Stock chart] <img src="./images/stock_chart.png"  width="50%" height="50%">
+<img src="./images/stock_chart.png"  width="50%" height="50%">
 
 According to the above image in the stock market when a person;
                     - buy stocks for a lower price and sell it to a higher price = Long ,
@@ -71,7 +71,7 @@ There are hundreds of models available, but unfortunately, more than 70% of them
 
 ## User view
 
-![User_view] <img src="./images/user_view.png"  width="50%" height="50%">
+<img src="./images/user_view.png"  width="50%" height="50%">
 
 ## Links
 
