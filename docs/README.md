@@ -22,7 +22,8 @@ title:
 3. [Solution](#solution)
 4. [Impact](#impact)
 5. [User view](#user_view)
-6. [Links](#links)
+6. [Timeline](#timeline)
+7. [Links](#links)
 
 ---
 
@@ -71,7 +72,12 @@ There are hundreds of models available, but unfortunately, more than 70% of them
 
 ## User view
 
-<img src="./images/user_view.png"  width="50%" height="50%">
+![userview](./images/search.gif)
+
+
+## Timeline
+
+<img src="./images/timeline.png"  width="50%" height="50%">
 
 ## Links
 
