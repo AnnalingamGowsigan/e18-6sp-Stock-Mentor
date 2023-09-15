@@ -1,4 +1,4 @@
-<img width="549" alt="Screenshot 2023-09-15 at 22 20 46" src="https://github.com/cepdnaclk/e18-6sp-Stock-Mentor/assets/74037052/f9cff461-313c-4486-8342-9edcac5d8a7c"># Stock Mentor
+# Stock Mentor
 
 ![6sp milestone 2](https://github.com/cepdnaclk/e18-6sp-Stock-Mentor/assets/74037052/2f3b5d91-0909-44d1-9ef1-b08494ac41f1)
 
@@ -13,27 +13,27 @@ To mitigate risks, investors should conduct thorough research and seek professio
 We are developing a web application specifically designed to provide investors with recommendations on stock trading decisions for different companies. The application will offer daily suggestions on whether to buy, sell, or hold stocks, assisting investors in making informed choices. By leveraging this application, investors can gain valuable insights to navigate the dynamic stock market effectively.
 
 # Challenges & remedies
-Difficulties in finding a suitable dataset for the project
+### Difficulties in finding a suitable dataset for the project
 
-Utilizing ParseHub web scraping tool.
-Obtaining historical data from Yahoo Finance.
+* Utilizing ParseHub web scraping tool.
+* Obtaining historical data from Yahoo Finance.
 
-Data set contained unclear data, unwanted columns, and duplicated values.
+### The data set contained unclear data, unwanted columns, and duplicated values.
 Used set for the solution
 
+* Explore the data here and see what story data tells us about the stocks.
+* Check for null values and try to impute them.
+* Check each and every feature and see whether it is useful to us or not.
+* Plot various plots to understand the relationship between different features.
+* Check whether there is a correlation between data or not.
 
-Explore the data here and see what story data tells us about the stocks.
-Check for null values and try to impute them.
-Check each and every feature and see whether it is useful to us or not.
-Plot various plot to understand the relationship between different features.
-Check whether there is a correlation between data or not.
+### Unable to obtain the target class for the dataset
 
-Unable to obtain the target class for the dataset
-
-Leverage predefined stock market indicators.
-Served as a basis for determining the target class for each data entry.
+* Leverage predefined stock market indicators.
+* Served as a basis for determining the target class for each data entry.
 
 # Project Progression
+
 ![6sp milestone 2 (1)](https://github.com/cepdnaclk/e18-6sp-Stock-Mentor/assets/74037052/5057cd30-7ff9-4691-aead-30f3b250c61f)
 
 We completed our project following this workflow:
@@ -51,6 +51,7 @@ We divided the project into smaller tasks and allocated them among our team memb
 # ML Evaluation
 
 Our data set is imbalanced distribution Normally in stock data set is like this. Here the image shows that
+
 <img width="549" alt="Screenshot 2023-09-15 at 22 20 46" src="https://github.com/cepdnaclk/e18-6sp-Stock-Mentor/assets/74037052/1f7414a7-c32a-4c5b-8ff0-153950461ece">
 
 
@@ -64,56 +65,7 @@ It is classification problem so we are using random forest model with smote trai
 We conducted API testing using the Postman application, where we tested the endpoints. 
 Additionally, we performed unit testing for each frontend component both manually and by employing test cases.
 Model Selection: We tested multiple machine learning models and selected the one with the highest F1 score, indicating superior overall performance.
+
 <img width="640" alt="Screenshot 2023-09-15 at 22 23 11" src="https://github.com/cepdnaclk/e18-6sp-Stock-Mentor/assets/74037052/abcb9fd9-6b05-4550-b611-f3bbec031962">
 
 
-
-
-
-
-
-
-
-# Business Objective
-
-There have been surge in people investing in stock from last few years and specially when people can invest from our their own smartphone, they have started understanding the importance of investment whether its stocks, real estate or metals.
-
-Lots of people who do not know much about how stocks behave or at what time they should buy/sell a particular stock keeping the risk involved in mind, a Recommendation model can help them to choose the right stock.
-
-A Model which can recommend users what to buy or what to sell in real time is our Business Objective.
-
-# Constraints
-
-1.Low Latency(In Real time within in few nano seconds the model should be able to classify the stocks according to the market )
-
-2.Errors can be very costly, people can loose their money by one wrong prediction though the model can't be 100% accurate.
-
-3.Interpretablity is important.
-
-4.Probablity of a particular stock belonging to each class is needed.
-
-# Machine Learning Formulation
-
-This Recommendation model should classify a particular stock, whether its a "STRONG_BUY" "STRONG_SELL" "BUY" "SELL" "HOLD".
-
-The major challenge of this classification problem is imabalance natures of class labels, most of times user has to HOLD the stocks and very few times STRONG BUY and STRONG SELL Signal is there.
-
-# DATA
-
-Scraped data for 10 Companies from Yahoo Finance website, Recommendation column has been added to data as the target class.
-
-# PERFORMANCE METRIC
-
-It is a simple multiclass classification problem, we can just use Multi-Class log loss for checking the performance.
-
-Other than that we will use accuracy(after checking if data is balanced or not), here the important thing is we care equally about Precision and Recall because we care equall about False Positives and False Negatives.
-
-Example1
-
-Let's say we have a case when actually stock is "NOT A STRONG SELL" at that moment and model predicted it to be "STRONG SELL", here user will sell the stocks and after some time price of that stock rises and user won't be happy with the model and he/she might not use it afterwards. This is a case of False Positive.
-
-Example2
-
-let's say we have a case when actually stock is a "STRONG SELL" at the moment and model predicted it to be "NOT A STRONG SELL", Now in this case user can loose money because trend may change after some time and stocks price will decrease, User will definitely won't use the model. This is the case of False Negative.
-
-So the best perfomance metric would be F1 score because F1 score is the harmonic mean between precision and recall and it will be high when both precision and recall will be high.
